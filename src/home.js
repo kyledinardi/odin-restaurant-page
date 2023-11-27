@@ -1,11 +1,15 @@
 const homeLoad = () => {
   const content = document.querySelector('#content');
-  const heading = document.createElement('h1');
-  const paragraph = document.createElement('p');
-  heading.textContent = 'Kinoplex Dine-in';
-  paragraph.textContent = 'Best crab legs in the west!';
-  content.appendChild(heading);
-  content.appendChild(paragraph);
+  content.textContent = '';
+
+  const p1 = document.createElement('p');
+  const p2 = document.createElement('p');
+
+  p1.textContent = 'Best crab legs in the west!';
+  p2.textContent = 'A quality full-course meal before or after the show.';
+  
+  content.appendChild(p1);
+  content.appendChild(p2);
 };
 
 export default homeLoad;

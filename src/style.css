@@ -1,12 +1,64 @@
+@font-face {
+  font-family: 'Showtime';
+  src: url('./Showtime-R9Ke.ttf');
+}
+
 * {
   margin: 0;
 }
 
-body {
-  background-image: url('restaurant.jpg');
-  background-size: 100% auto;
+:root {
+  font-size: 20px;
 }
 
-h1, p, .footer, a {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('restaurant.jpg');
+  background-size: cover;
+  display: grid;
+  gap: 30px;
+  grid-template-rows: auto 1fr auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.logo {
   color: white;
+  font-family: 'Showtime', sans-serif;
+  font-size: 3rem;
+  margin-top: 30px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.nav button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: #F4A261;
+}
+
+#content {
+  width: max-content;
+  border-radius: 50px;
+  background-color: rgba(244, 162, 97, 0.9);
+  display: grid;
+  justify-items: center;
+  padding: 100px;
+  gap: 30px;
+}
+
+.footer {
+  background-color: #F4A261;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer a {
+  color: #000;
 }
