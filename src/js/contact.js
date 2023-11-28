@@ -14,7 +14,7 @@ const contactLoad = () => {
   const address = document.createElement('p');
   const email = document.createElement('p');
 
-  gridWrapper.classList.add('wrapper');
+  gridWrapper.classList.add('contact-wrapper');
   phoneIcon.classList.add('svg');
   addressIcon.classList.add('svg');
   emailIcon.classList.add('svg');

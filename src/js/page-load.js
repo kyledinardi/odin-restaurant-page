@@ -12,7 +12,7 @@ const pageLoad = () => {
   menuBtn.textContent = 'Menu';
   contactBtn.textContent = 'Contact';
   footer.innerHTML = 
-    'Photo by <a href="https://unsplash.com/@ninjason">Jason Leung</a> on <a href="https://unsplash.com/photos/photo-of-pub-set-in-room-during-daytime-poI7DelFiVA">Unsplash</a>';
+    'Photos from <a href="https://unsplash.com/">Unsplash</a>';
   
   heading.classList.add('logo');
   nav.classList.add('nav');
