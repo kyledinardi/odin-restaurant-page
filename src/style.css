@@ -54,12 +54,21 @@ body {
   gap: 30px;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 30px;
+}
+
+.svg {
+  height: 24px;
+}
+
 .footer {
   background-color: #F4A261;
-  border-radius: 10px;
   text-align: center;
-  padding: 10px;
-  margin-bottom: 30px;
+  width: 100%;
+  padding: 10px 0;
 }
 
 .footer a {
