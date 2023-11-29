@@ -22,8 +22,8 @@ const contactLoad = () => {
   phoneIcon.src = phoneSVG;
   addressIcon.src = addressSVG;
   emailIcon.src = emailSVG;
-  phoneNumber.textContent = '+1 614-338-2666';
-  address.innerHTML = '4019 James Martin Circle<br>Columbus, OH 43209';
+  phoneNumber.textContent = '+1 405-555-0124';
+  address.innerHTML = '732 Cherry Ridge Drive<br>Oklahoma City, OK 74430';
   email.textContent = 'kinoplexdinein@kinoplex.com';
 
   gridWrapper.appendChild(phoneIcon);

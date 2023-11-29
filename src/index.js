@@ -5,7 +5,7 @@ import menuLoad from './js/menu.js';
 import contactLoad from './js/contact.js';
 
 pageLoad();
-menuLoad();
+homeLoad();
 
 const homeBtn = document.querySelector('.home-button');
 const menuBtn = document.querySelector('.menu-button');

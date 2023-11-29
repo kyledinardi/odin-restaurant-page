@@ -2,14 +2,17 @@ const homeLoad = () => {
   const content = document.querySelector('#content');
   content.textContent = '';
 
-  const p1 = document.createElement('p');
-  const p2 = document.createElement('p');
+  const para = document.createElement('p');
+  const quote = document.createElement('blockquote');
+  const attribution = document.createElement('span');
 
-  p1.textContent = 'Best crab legs in the west!';
-  p2.textContent = 'A quality meal before or after the show.';
+  para.innerHTML = 'A quality meal before or after the show.<br><br>';
+  quote.textContent = '"Best crab legs in the west!"';
+  attribution.textContent = ' - Robert K'
   
-  content.appendChild(p1);
-  content.appendChild(p2);
+  content.appendChild(para);
+  content.appendChild(quote);
+  content.appendChild(attribution);
 };
 
 export default homeLoad;
